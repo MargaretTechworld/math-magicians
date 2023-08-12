@@ -44,3 +44,27 @@ button {
 .light-grey {
   background-color: #e0e0e0;
 }
+
+.quotes-div {
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.error-msg {
+  color: red;
+}
+
+.loading-msg {
+  color: green;
+}
+
+.quotes {
+  font-weight: 200;
+}
+
+.quotes-author {
+  font-style: italic;
+  font-weight: 900;
+}

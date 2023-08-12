@@ -34,6 +34,9 @@
     "import/resolver": {
       "node": {
         "extensions": [".js", ".jsx"]
+      },
+      "alias": {
+        "big.js": "big.js" 
       }
     }
   }
