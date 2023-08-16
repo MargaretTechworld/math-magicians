@@ -36,7 +36,7 @@
         "extensions": [".js", ".jsx"]
       },
       "alias": {
-        "big.js": "big.js" 
+        "big.js": "big.js"
       }
     }
   }

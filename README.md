@@ -67,6 +67,7 @@
 - **Setup**
 - **component**
 - **functionality**
+- **interfaces(Home,Calculator,Quotes)**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -144,7 +145,7 @@ npm test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **[Interface]**
+- **[test]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
