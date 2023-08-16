@@ -30,28 +30,32 @@ function Calculator() {
   };
 
   return (
-    <div className="parent">
-      <Input value={calculatorScreen()} />
-      <Button onClick={handleButtonClick} className="light-grey" value="AC" />
-      <Button onClick={handleButtonClick} className="light-grey" value="+/-" />
-      <Button onClick={handleButtonClick} className="light-grey" value="%" />
-      <Button onClick={handleButtonClick} className="orange-color" value="÷" />
-      <Button onClick={handleButtonClick} className="light-grey" value="7" />
-      <Button onClick={handleButtonClick} className="light-grey" value="8" />
-      <Button onClick={handleButtonClick} className="light-grey" value="9" />
-      <Button onClick={handleButtonClick} className="orange-color" value="x" />
-      <Button onClick={handleButtonClick} className="light-grey" value="4" />
-      <Button onClick={handleButtonClick} className="light-grey" value="5" />
-      <Button onClick={handleButtonClick} className="light-grey" value="6" />
-      <Button onClick={handleButtonClick} className="orange-color" value="-" />
-      <Button onClick={handleButtonClick} className="light-grey" value="1" />
-      <Button onClick={handleButtonClick} className="light-grey" value="2" />
-      <Button onClick={handleButtonClick} className="light-grey" value="3" />
-      <Button onClick={handleButtonClick} className="orange-color" value="+" />
-      <Button onClick={handleButtonClick} className="zero" value="0" />
-      <Button onClick={handleButtonClick} className="light-grey" value="." />
-      <Button onClick={handleButtonClick} className="orange-color" value="=" />
+    <div className="calculator-container">
+      <h1>Lets do some maths!</h1>
+      <div className="parent">
+        <Input value={calculatorScreen()} />
+        <Button onClick={handleButtonClick} className="light-grey" value="AC" />
+        <Button onClick={handleButtonClick} className="light-grey" value="+/-" />
+        <Button onClick={handleButtonClick} className="light-grey" value="%" />
+        <Button onClick={handleButtonClick} className="orange-color" value="÷" />
+        <Button onClick={handleButtonClick} className="light-grey" value="7" />
+        <Button onClick={handleButtonClick} className="light-grey" value="8" />
+        <Button onClick={handleButtonClick} className="light-grey" value="9" />
+        <Button onClick={handleButtonClick} className="orange-color" value="x" />
+        <Button onClick={handleButtonClick} className="light-grey" value="4" />
+        <Button onClick={handleButtonClick} className="light-grey" value="5" />
+        <Button onClick={handleButtonClick} className="light-grey" value="6" />
+        <Button onClick={handleButtonClick} className="orange-color" value="-" />
+        <Button onClick={handleButtonClick} className="light-grey" value="1" />
+        <Button onClick={handleButtonClick} className="light-grey" value="2" />
+        <Button onClick={handleButtonClick} className="light-grey" value="3" />
+        <Button onClick={handleButtonClick} className="orange-color" value="+" />
+        <Button onClick={handleButtonClick} className="zero" value="0" />
+        <Button onClick={handleButtonClick} className="light-grey" value="." />
+        <Button onClick={handleButtonClick} className="orange-color" value="=" />
+      </div>
     </div>
+
   );
 }
 
